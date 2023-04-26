@@ -7,7 +7,7 @@ class MainClass {
     bool[] stalls = new bool[n];
 
     while (true) {
-      Console.Write("Enter the stall number (0 to exit): ");
+      Console.Write("Enter the stall number (k to exit): ");
       int stallNum1 = int.Parse(Console.ReadLine());
       int stallNum2 = 0;
 
